@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px;
+    row-gap: 40px;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.hero-small {
+    width: 100%;
+    max-width: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.text {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: end;
+    padding: 0 46px 32px 32px;
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
+    color: white;
+}
+
+.girl_perl,
+.mona_lisa {
+ height: 100%;
+ width: 100%;
+ max-width: none;
+ object-fit:cover;
+}
+ 
